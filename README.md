@@ -21,7 +21,7 @@ $ git clone https://github.com/[username]/100-prisoners-and-a-light-bulb.git
 Running the game
 Open a terminal and navigate to the repository directory. Run the following command to start the game:
 `
-$ python riddle.py
+$ python main.py
 `
 Built With
 * Python - The programming language used
