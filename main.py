@@ -8,7 +8,7 @@ class PrisonerPuzzle(tk.Tk):
         self.geometry("300x300")
         self.number_of_prisoners = 100
         self.light_bulbs = []
-        self.prisoner_id = random.randint(1, 100)
+        self.prisoner_id = random.randint(0, 99)
         self.counter = 50
         self.fill_bulb_arr()
         self.label = tk.Label(text="Your ID is: {}".format(self.prisoner_id))
@@ -29,9 +29,9 @@ class PrisonerPuzzle(tk.Tk):
     
     def fill_bulb_arr(self):
         for i in range(self.number_of_prisoners):
-            nbr = random.randint(1, 100)
+            nbr = random.randint(0, 99)
             while nbr in self.light_bulbs:
-                nbr = random.randint(1, 100)
+                nbr = random.randint(0, 99)
             self.light_bulbs.append(nbr)
     
     def check_id(self, index):
