@@ -16,7 +16,7 @@ What things you need to install the software and how to install them:
 Clone the repository to your local machine using the following command:
 
 `
-$ git clone https://github.com/[username]/100-prisoners-and-a-light-bulb.git
+$ git clone https://github.com/a-nonymou-s/Prisoners-Riddle.git
 `
 Running the game
 Open a terminal and navigate to the repository directory. Run the following command to start the game:
